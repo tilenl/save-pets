@@ -11,7 +11,7 @@ export default function Header({ children, current_page_name }) {
   return (
     <div className="flex flex-row justify-between w-full">
       <Image
-        src="/logo_spletna-rjava-roza-jezik.png"
+        src="/Logo.png"
         alt="Logo of SaveAnimals"
         width={100}
         height={100}

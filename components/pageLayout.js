@@ -3,12 +3,14 @@ import Link from "next/link";
 import Meta from "./meta"; // Vsi podatki so v MY_SEO od config.js
 import Header from "./header";
 
+// TODO: Zamenjej z logotom tapravim
+//<link rel="icon" href="/favicon.ico" />
+
 export default function PageLayout({ selectedPage, children }) {
   return (
     <div className="flex flex-col px-10 pt-10">
       <Head>
-        // TODO: Zamenjej z logotom tapravim
-        <link rel="icon" href="/favicon.ico" />
+        
       </Head>
       <Header current_page_name={selectedPage}></Header>
 
