@@ -2,7 +2,8 @@ import Image from "next/image";
 import HeaderLink from "./headerLink";
 import WalletButton from "../components/walletButton";
 
-// kajmaž
+// kajmažsdkjfkdah
+
 // colors: https://coolors.co/e74b75-ee809d-f3a5ba-86624a-4b372c-e0c6ad-808080
 
 // geslo: testtest
